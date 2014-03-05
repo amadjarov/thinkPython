@@ -51,23 +51,29 @@ HANGMANPICS = ['''
       |
 =========''']
 words = 'ant baboon badger bat bear beaver camel cat clam cobra cougar coyote crow deer dog donkey duck eagle ferret fox frog goat goose hawk lion lizard llama mole monkey moose mouse mule newt otter owl panda parrot pigeon python rabbit ram rat raven rhino salmon seal shark sheep skunk sloth snake spider stork swan tiger toad trout turkey turtle weasel whale wolf wombat zebra'.split()
+print words
 
 word = random.choice(words)
 print word
-noRepeatWord="".join(set(word))
+wordIndex = words.index(word) # find where is the randomly chosen word in the list
+#print wordIndex
+#print "Your word has " +str(len(word))+ " characters"
+#print "".join(words)
+print "-" * len(word)
+
 wrongGuess = ""
 rightGuess = ""
+leng = len(wrongGuess)
 
     
 print " Hello this is HANGMAN game!!! Enjooy"
 print " U can guess wrong only 6 times"
-print "Hint : words are only animals "
-#print HANGMANPICS[0]
+print HANGMANPICS[0]
+
 def display(HANGMANPICS, wrongGuess):
     print HANGMANPICS[len(wrongGuess)]
         
-def getChar(wrongGuess):
-    leng = 0
+def getChar(wrongGuess): 
     while leng < 6:
         print " Please enter a character"
         guess = raw_input()
@@ -91,8 +97,8 @@ while True:
     display(HANGMANPICS, wrongGuess)
     
     if len(wrongGuess) == 6:
-        print " You loose the word was {"+word+"} try next time"
+        print " You loose stupid bitch"
         sys.exit()
-    if len(rightGuess) == len(noRepeatWord):
-        print " You are smart the word was {"+word+"} Good job"
+    if len(rightGuess) == len(word):
+        print "DAAAAAAAAMN  You are a smart the word was {"+word+"} Good job"
         sys.exit()

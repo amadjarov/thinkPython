@@ -62,32 +62,31 @@ rightGuess = ""
 print " Hello this is HANGMAN game!!! Enjooy"
 print " U can guess wrong only 6 times"
 print "Hint : words are only animals "
-#print HANGMANPICS[0]
+print HANGMANPICS[0]
 def display(HANGMANPICS, wrongGuess):
     print HANGMANPICS[len(wrongGuess)]
         
-def getChar(wrongGuess):
+def getChar(wrongGuess, allreadyGuess):
     leng = 0
     while leng < 6:
         print " Please enter a character"
         guess = raw_input()
         guess = guess.lower()
        
-        if len(guess) == 1 and guess in "abcdefghijklmnopqrstuvwxyz":
+        if len(guess) == 1 and guess in "abcdefghijklmnopqrstuvwxyz" and guess not in allreadyGuess: #==Change here
             return guess
-            
         else:
-            print "You should enter only one character from the alphabet"
+            print "You should enter only one character from the alphabet without repeating it"
 
 while True:
-    
-    guess = getChar(wrongGuess)
+    allreadyGuess = wrongGuess + rightGuess #================== change her
+    guess = getChar(wrongGuess, allreadyGuess)
     
     if guess in word:
         rightGuess += guess
     else:
         wrongGuess += guess
-
+    
     display(HANGMANPICS, wrongGuess)
     
     if len(wrongGuess) == 6:
