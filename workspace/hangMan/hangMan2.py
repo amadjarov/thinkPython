@@ -104,5 +104,5 @@ while True:
         sys.exit()
     if len(rightGuess) == len(noRepeatWord):
         print hidden
-        print " You are smart the word was {"+word+"} Good job"
+        print " You are smart the word was hhhh {"+word+"} Good job"
         sys.exit()
