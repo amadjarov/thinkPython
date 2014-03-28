@@ -1,0 +1,10 @@
+USER:anf start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrongGuess]:[rightGuess]
+deer:----:f:f:
+deer:----:g:fg:
+deer:---r:r:fg:r
+deer:---r:r:fg:rr
+deer:---r:o:fgo:rr
+deer:---r:i:fgoi:rr
+deer:d--r:d:fgoi:rrd
+Player win and finish the game

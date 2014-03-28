@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-03-14 18:15+EET\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: game.py:77
+msgid " Hello this is HANGMAN game!!! Enjooy"
+msgstr ""
+
+#: game.py:78
+msgid " U can guess wrong only 6 times"
+msgstr ""
+
+#: game.py:79
+msgid " Hint : words are only animals "
+msgstr ""
+
+#: game.py:80
+msgid " The word you should guess has {word_length} characters "
+msgstr ""
+
+#: game.py:139
+msgid "You should enter only one character from the alphabet without repeating it"
+msgstr ""
+
+#: game.py:153
+msgid " You loose the word was[ {word} ] try next time"
+msgstr ""
+
+#: game.py:156
+msgid " You are smart the word was [ {word} ] Good job"
+msgstr ""
+

@@ -1,0 +1,11 @@
+USER:acho start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrongGuess]:[rightGuess]
+owl:---:p:p:
+owl:---:i:pi:
+owl:o--:o:pi:o
+owl:o--:a:pia:o
+owl:ow-:w:pia:ow
+owl:ow-:r:piar:ow
+owl:ow-:e:piare:ow
+owl:owl:l:piare:owl
+Player win and finish the game
