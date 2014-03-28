@@ -1,0 +1,29 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-03-28 16:16+EET\n"
+"PO-Revision-Date: 2014-03-28 16:21+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: calssDisplayMe.py:94
+msgid " You lose the word was[ {word} ] try next time"
+msgstr "Ти загуби думата беше [ {word} ] пробвай следващия път"
+
+#: calssDisplayMe.py:96
+msgid " You are smart the word was [ {word} ] Good job"
+msgstr "Умен си думата беше  [ {word} ] Браво!!"
+
+#: calssDisplayMe.py:98
+msgid ""
+"You should enter only one character from the alphabet without repeating it"
+msgstr "Имаш право да въведеш само една буква от азбуката без да се повтаряш"

@@ -1,0 +1,66 @@
+USER:angel start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrongGuess]:[rightGuess]
+mannequin:m--------:m::m
+mannequin:ma-------:a::ma
+mannequin:mann----n:n::man
+mannequin:mann----n:j:j:man
+mannequin:mann----n:l:jl:man
+mannequin:mann----n:y:jly:man
+mannequin:mann----n:r:jlyr:man
+mannequin:manne---n:e:jlyr:mane
+mannequin:manne---n:e:jlyr:manee
+mannequin:manneq--n:q:jlyr:maneeq
+mannequin:manneq--n:q:jlyr:maneeqq
+Player win and finish the game
+USER:angel start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrongGuess]:[rightGuess]
+pink:p---:p::p
+pink:pi--:i::pi
+pink:pin-:n::pin
+pink:pink:k::pink
+Player win and finish the game
+USER:angel start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrongGuess]:[rightGuess]
+purple:p--p--:p::p
+purple:pu-p--:u::pu
+purple:purp--:r::pur
+purple:purpl-:l::purl
+purple:purple:e::purle
+Player win and finish the game
+USER:angel start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrongGuess]:[rightGuess]
+pink:----:o:o:
+pink:-i--:i:o:i
+pink:-i--:f:of:i
+pink:-i--:e:ofe:i
+pink:-i--:e:ofee:i
+pink:-i--:e:ofeee:i
+pink:pi--:p:ofeee:ip
+pink:pi--:p:ofeee:ipp
+pink:pin-:n:ofeee:ippn
+Player win and finish the game
+USER:angel start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrongGuess]:[rightGuess]
+white:w----:w::w
+white:w----:p:p:w
+white:w-i--:i:p:wi
+white:w-it-:t:p:wit
+white:w-it-:u:pu:wit
+white:w-it-:l:pul:wit
+white:whit-:h:pul:with
+white:white:e:pul:withe
+Player win and finish the game
+USER:angel start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrongGuess]:[rightGuess]
+blue:b---:b::b
+blue:bl--:l::bl
+blue:blu-:u::blu
+blue:blue:e::blue
+Player win and finish the game
+USER:angel start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrongGuess]:[rightGuess]
+green:g----:g::g
+green:gr---:r::gr
+green:gree-:e::gre
+green:green:n::gren
+Player win and finish the game
