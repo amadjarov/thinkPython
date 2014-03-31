@@ -4,7 +4,7 @@ from Display import *
 import logging
 import gettext
 class Game(object):
-
+    user = Player()
     display = desplayME()
 
     def __init__(self,word,wrongGuess="",rightGuess="",SHOTS=6,hidden=""):
@@ -33,8 +33,8 @@ class Game(object):
         check if this character is vlid one and return it
         """
         #while True:
-        user = Player()
-        guess = user.askForChar()
+        
+        guess = self.user.askForChar()
         guess = guess.lower()
                 
         if len(guess) == 1 and guess in "abcdefghijklmnopqrstuvwxyz" and guess not in self.allreadyGuess: #==Change here

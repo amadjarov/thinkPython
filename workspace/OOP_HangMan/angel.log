@@ -64,3 +64,14 @@ green:gr---:r::gr
 green:gree-:e::gre
 green:green:n::gren
 Player win and finish the game
+USER:angel start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrongGuess]:[rightGuess]
+fettuccine:f---------:f::f
+fettuccine:f---------:r:r:f
+fettuccine:fe-------e:e:r:fe
+fettuccine:fett-----e:t:r:fet
+fettuccine:fettu----e:u:r:fetu
+fettuccine:fettucc--e:c:r:fetuc
+fettuccine:fettucci-e:i:r:fetuci
+fettuccine:fettuccine:n:r:fetucin
+Player win and finish the game
