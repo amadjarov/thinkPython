@@ -1,16 +1,20 @@
+"""Words"""
 import random
 class Word(object):
-    def randomCategory(self):
+    """Class to randomly select word and category"""
+
+    def random_category(self):
         """
         Randomly select one category
         """
-        self.category = (random.choice(["colors","animals","others"]))
+        self.category = (random.choice(["colors", "animals", "others"]))
         return self.category
-    def randomWord(self):
+
+    def random_word(self):
         """
         Open the file with the category and randomly select one word from it
         """
-        with open(self.category) as f:
-                words = f.read().split()
+        with open(self.category) as fo1:
+            words = fo1.read().split()
         word = random.choice(words)
         return word

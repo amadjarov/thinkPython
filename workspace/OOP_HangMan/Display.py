@@ -1,11 +1,13 @@
+"""Display"""
 import gettext
-t = gettext.translation('config', "./locales", languages=['bg_BG','en_US'])
-_ = t.ugettext
-class desplayME(object):
+T = gettext.translation('config', "./locales", languages=['bg_BG','en_US'])
+_ = T.ugettext
+class DisplayME(object):
     """
     Class to desplay the hangman picture and the hidden word
     """
-    HANGMANPICS = ['''
+
+    hangman_pics = ['''
       +---+
       |   |
           |
@@ -57,47 +59,38 @@ class desplayME(object):
     =========''']
     
     def __init__(self, pics = None):
-        """
-        Initialize the object with the HANGMANPICS list
-        >>> ob = desplayME(HANGMANPICS)
-        """
-        self.HANGMANPICS = pics or self.HANGMANPICS
+        self.hangman_pics = pics or self.hangman_pics
     
-    def set_state(self, word,hidden, wrongGuess="" ):
+    def set_state(self, word, hidden, wrong_guess=""):
         """
-        >>> ob.set_state("banan","--n-n","")
-        >>> print ob.word
-        banan
-        >>> print ob.hidden
-        --n-n
-        >>> print on.wrongGuess
-        ""
+        This method set the state for desokayMe class
         """
         self.word = word
         self.hidden = hidden
-        self.wrongGuess = wrongGuess
+        self.wrong_guess = wrong_guess
 
-    def desplayMan(self,):
+    def display_man(self):
         """
-        Print the hanging word according to the number of characters in the wrongGuess
+        Print the hanging word according to the number of characters
+         in the wrong_guess
         """
-        print self.HANGMANPICS[len(self.wrongGuess)]
+        print self.hangman_pics[len(self.wrong_guess)]
     
-    def desplayHidden(self):
+    def display_hidden(self):
         """
         Pirnts the hidden word from the set_state
         """
         print self.hidden
-    
-    def desplayText(self,key):
+
+    def display_text(self, key):
         """
-        Print apropriate statement accordig to the key value
+        Print appropriate statement according to the key value
         """
         if key == "lose":
-            print _(" You lose the word was[ {word} ] try next time").format(word=self.word)
+            print _(" You lose the word was[ {word} ] try next time") \
+            .format(word=self.word)
         elif key == "win":
-            print _(" You are smart the word was [ {word} ] Good job").format(word = self.word)
+            print _(" You are smart the word was[ {word} ] Good job") \
+            .format(word=self.word)
         elif key == "valid":
             print _("You should enter only one character from the alphabet without repeating it")
-        
-

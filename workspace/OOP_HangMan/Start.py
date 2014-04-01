@@ -1,30 +1,35 @@
+"""From here we Start the game"""
 from ConfigParser import SafeConfigParser
-import gettext
-from Display import *
-from Player import *
-from Words import *
-from Game import *
+from Player import Player
+from Words import Word
+from Game import Game, logging
 
-if __name__=="__main__":
+def main():
+    """hack"""
     parser = SafeConfigParser()
     parser.read('config.ini')
-    
-    SHOTS = parser.getint('shots', 'number_of_tryes')
-    
-    currentWord = Word()
-    category = currentWord.randomCategory()
-    
+
+    shots = parser.getint('shots', 'number_of_tryes')
+
+    current_word = Word()
+    category = current_word.random_category()
+
     user = Player()
-    player=user.askForName()
+    player = user.ask_for_name()
+
+    file_name = "%s.log" % player
+    logging.basicConfig(filename=file_name, level=logging.DEBUG,
+                         format='%(message)s')
+    logging.info("USER:%s start the game and has %s wrong turns",
+                  player, shots )
+    logging.info("###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]")
     
-    fileName = "%s.log" %player
-    logging.basicConfig(filename=fileName,level=logging.DEBUG, format='%(message)s')
-    logging.info("USER:%s start the game and has %s wrong turns", player,SHOTS )
-    logging.info("###### [word]:[hidden]:[guess]:[wrongGuess]:[rightGuess]")
-    
-    word = currentWord.randomWord()
+    word = current_word.random_word()
     print word
     
-    playFun = Game(word)
+    play_fun = Game(word)
     
-    playFun.play()
+    play_fun.play()
+    
+if __name__ == "__main__":
+    main()
