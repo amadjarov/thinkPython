@@ -93,4 +93,5 @@ class DisplayME(object):
             print _(" You are smart the word was[ {word} ] Good job") \
             .format(word=self.word)
         elif key == "valid":
-            print _("You should enter only one character from the alphabet without repeating it")
+            print _("You should enter only one character from the "
+                    "alphabet without repeating it")
