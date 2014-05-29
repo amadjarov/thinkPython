@@ -1,0 +1,7 @@
+import MySQLdb as mdb
+
+con = mdb.connect('localhost', 'testuser', '1', 'hangman')
+
+cur = con.cursor()
+
+cur.execute("INSERT INTO Writers(Name) VALUES('Jack London')")

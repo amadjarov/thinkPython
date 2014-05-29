@@ -1,0 +1,16 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/avmadzharov/Angel/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/BlackJack/com.python.pydev.analysis/v2_indexcache
+file1|1396263962000|/home/avmadzharov/Angel/workspace/BlackJack/file1.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=file1
+-- END DICTIONARY
+-- START TREE 1
+1
+say|2|say!10@say_welcome!10@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

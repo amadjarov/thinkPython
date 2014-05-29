@@ -1,0 +1,30 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/avmadzharov/Angel/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/Chapter15/com.python.pydev.analysis/v2_indexcache
+ex_15_3|1394027925000|/home/avmadzharov/Angel/workspace/Chapter15/ex_15_3.py
+test|1394027925000|/home/avmadzharov/Angel/workspace/Chapter15/test.py
+ex_15_2|1394027925000|/home/avmadzharov/Angel/workspace/Chapter15/ex_15_2.py
+ex_15_1|1394027925000|/home/avmadzharov/Angel/workspace/Chapter15/ex_15_1.py
+-- END DISKCACHE
+-- START DICTIONARY
+4
+2=ex_15_3
+4=test
+1=ex_15_2
+3=ex_15_1
+-- END DICTIONARY
+-- START TREE 1
+9
+box|2|box!11@box!19@
+dis|1|distance_between_points!26@
+fo|1|fo!35@
+mov|3|move_rectangle!10@move_rectangle!18@move_rectangle_copy!18@
+p1|1|p1!27@
+p2|1|p2!27@
+poi|3|Point!25@Point!9@Point!17@
+rec|2|Rectangle!17@Rectangle!9@
+str|2|stri!35@str!35@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

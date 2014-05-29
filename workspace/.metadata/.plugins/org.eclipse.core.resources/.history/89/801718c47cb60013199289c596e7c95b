@@ -1,0 +1,31 @@
+from calssDisplayMe import *
+LOG_FILE ="bojidar.log" 
+
+asList = []
+start = False
+end = False
+with open(LOG_FILE) as fo:
+    for line in fo:
+        if end:
+            break
+        if line.startswith('######'):
+            start = True
+            continue
+        if start:
+            if line.startswith('user:'):
+                end = True
+                continue
+            asList.append(line)
+
+achoHang = desplayME()
+print asList
+#Comment
+WORD = 0
+HIDDEN = 1
+WRONG = 3
+
+for i in asList:
+    line = i.split(':')
+    achoHang.set_state(line[WORD], line[HIDDEN],line[WRONG])
+    achoHang.desplayMan()
+    achoHang.desplayHidden()

@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="16" version="2.0">
+<workbenchAdvisor/>
+<window height="828" width="1019" x="156" y="90">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="144" y="30"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.python.pydev.debug.actionSet" itemType="typeToolBarContribution" x="68" y="30"/>
+<coolItem id="com.python.pydev.navigate.actionSet" itemType="typeToolBarContribution" x="40" y="30"/>
+<coolItem id="org.eclipse.compare.CompareEditor" itemType="typePlaceholder" x="96" y="30"/>
+<coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="156" y="30"/>
+<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.python.pydev.toolbars.evaluateActionSetterToolbar" itemType="typeToolBarContribution" x="40" y="30"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="30"/>
+<coolItem id="org.python.pydev.editor.PythonEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="232" y="30"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1392800662195" focus="true" label="Workspace - PyDev">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.python.pydev.editor.PythonEditor" name="Start.py" partName="Start" path="/home/avmadzharov/Angel/workspace/OOP_HangMan/Start.py" title="Start" tooltip="OOP_HangMan/Start.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OOP_HangMan/Start.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="18" selectionOffset="467" selectionTopPixel="0"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="Display.py" partName="Display" path="/home/avmadzharov/Angel/workspace/OOP_HangMan/Display.py" title="Display" tooltip="OOP_HangMan/Display.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OOP_HangMan/Display.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1593" selectionTopPixel="203"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="Words.py" partName="Words" path="/home/avmadzharov/Angel/workspace/OOP_HangMan/Words.py" title="Words" tooltip="OOP_HangMan/Words.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OOP_HangMan/Words.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="250" selectionTopPixel="0"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="Game.py" partName="Game" path="/home/avmadzharov/Angel/workspace/OOP_HangMan/Game.py" title="Game" tooltip="OOP_HangMan/Game.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OOP_HangMan/Game.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2348" selectionTopPixel="747"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="Player.py" partName="Player" path="/home/avmadzharov/Angel/workspace/OOP_HangMan/Player.py" title="Player" tooltip="OOP_HangMan/Player.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OOP_HangMan/Player.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="656" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="   t.py" partName="   t" path="/home/avmadzharov/Angel/workspace/OOP/   t.py" title="   t" tooltip="OOP/   t.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OOP/   t.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="213"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
+<columnWidths org.eclipse.ui.ide.completionField="40" org.eclipse.ui.ide.descriptionField="350" org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="226" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.priorityField="35" org.eclipse.ui.ide.resourceField="105"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.python.pydev.navigator.view" partName="PyDev Package Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0">
+<expanded IMemento.internal.id="/home/avmadzharov/Angel/workspace/OOP"/>
+<expanded IMemento.internal.id="/home/avmadzharov/Angel/workspace/OOP_HangMan"/>
+</viewState>
+</view>
+</views>
+<perspectives activePart="org.python.pydev.navigator.view" activePerspective="org.python.pydev.ui.PythonPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.mylyn.tasks.ui.wizards.new.repository.task"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.team.cvs.ui.cvsPerspective"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@386dff" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25940594" ratioLeft="262" ratioRight="748" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.6599064" ratioLeft="423" ratioRight="218" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.TaskList" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottomLeft" ratio="0.49921995" ratioLeft="320" ratioRight="321" relationship="4" relative="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.python.pydev.ui.perspective.PythonPerspectiveFactory" id="org.python.pydev.ui.PythonPerspective" label="PyDev"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="com.python.pydev.navigate.actionSet"/>
+<show_view_action id="org.python.pydev.views.PyCodeCoverageView"/>
+<show_view_action id="org.python.pydev.navigator.view"/>
+<show_view_action id="org.python.pydev.debug.pyunit.pyUnitView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<new_wizard_action id="org.python.pydev.ui.wizards.project.PythonProjectWizard"/>
+<new_wizard_action id="org.python.pydev.ui.wizards.files.PythonSourceFolderWizard"/>
+<new_wizard_action id="org.python.pydev.ui.wizards.files.PythonPackageWizard"/>
+<new_wizard_action id="org.python.pydev.ui.wizards.files.PythonModuleWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.python.pydev.navigator.view"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.python.pydev.navigator.view" appearance="2" expanded="2">
+<page content="org.python.pydev.navigator.view" label="PyDev Package Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.20431894" ratioLeft="246" ratioRight="958" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.491404" ratioLeft="343" ratioRight="355" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<page content="org.python.pydev.debug.pyunit.pyUnitView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@14753a59" ratio="0.5028653" ratioLeft="351" ratioRight="347" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.debug.internal.ui.DebugPerspectiveFactory" id="org.eclipse.debug.ui.DebugPerspective" label="Debug"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="com.python.pydev.navigate.actionSet"/>
+<alwaysOnActionSet id="com.python.pydev.debug.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.python.pydev.exceptionBreakpoints"/>
+<alwaysOnActionSet id="org.python.pydev.pyPropertyTrace"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="org.eclipse.debug.ui.ExpressionView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.jdt.debug.ui.DisplayView"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.74974567" ratioLeft="737" ratioRight="246" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.7496274" ratioLeft="503" ratioRight="168" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
+<page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.44930416" ratioLeft="226" ratioRight="277" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.74974567" ratioLeft="737" ratioRight="246" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.49949136" ratioLeft="491" ratioRight="492" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/OOP_HangMan/Start.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/OOP_HangMan/Words.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/OOP_HangMan/Display.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/OOP_HangMan/Game.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/OOP_HangMan/Player.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/OOP_HangMan/test.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/OOP/   t.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/OOP/fff.py"/>
+</editors>
+<item historyLabel="Player" index="4">
+<position info="not_deleted" x="312" y="0"/>
+</item>
+<item historyLabel="Start" index="0">
+<position info="not_deleted" x="753" y="0"/>
+</item>
+<item historyLabel="Display" index="2">
+<position info="not_deleted" x="1320" y="0"/>
+</item>
+<item historyLabel="Game" index="3">
+<position info="not_deleted" x="768" y="0"/>
+</item>
+<item historyLabel="Display" index="2">
+<position info="not_deleted" x="1320" y="0"/>
+</item>
+<item historyLabel="Words" index="1">
+<position/>
+</item>
+<item historyLabel="Game" index="3">
+<position info="not_deleted" x="768" y="0"/>
+</item>
+<item historyLabel="Player" index="4">
+<position info="not_deleted" x="312" y="0"/>
+</item>
+<item historyLabel="Game" index="3">
+<position info="not_deleted" x="768" y="0"/>
+</item>
+<item historyLabel="Player" index="4">
+<position info="not_deleted" x="312" y="0"/>
+</item>
+<item historyLabel="Player" index="4">
+<position info="not_deleted" x="311" y="0"/>
+</item>
+<item historyLabel="Player" index="4">
+<position info="not_deleted" x="312" y="0"/>
+</item>
+<item historyLabel="Start" index="0">
+<position info="not_deleted" x="753" y="0"/>
+</item>
+<item historyLabel="Game" index="3">
+<position info="not_deleted" x="0" y="2767"/>
+</item>
+<item historyLabel="Player" index="4">
+<position info="not_deleted" x="0" y="831"/>
+</item>
+<item historyLabel="Words" index="1">
+<position info="not_deleted" x="0" y="581"/>
+</item>
+<item historyLabel="Display" index="2">
+<position info="not_deleted" x="0" y="2160"/>
+</item>
+<item historyLabel="Start" index="0">
+<position info="not_deleted" x="0" y="911"/>
+</item>
+<item historyLabel="Words" index="1">
+<position info="not_deleted" x="346" y="0"/>
+</item>
+<item historyLabel="Game" index="3">
+<position info="not_deleted" x="0" y="2767"/>
+</item>
+<item historyLabel="Start" index="0">
+<position info="not_deleted" x="899" y="0"/>
+</item>
+<item historyLabel="Game" index="3">
+<position info="not_deleted" x="2348" y="0"/>
+</item>
+<item historyLabel="Words" index="1">
+<position info="not_deleted" x="250" y="0"/>
+</item>
+<item historyLabel="Start" index="0">
+<position info="not_deleted" x="899" y="0"/>
+</item>
+<item historyLabel="Display" index="2">
+<position info="not_deleted" x="0" y="2160"/>
+</item>
+<item historyLabel="Words" index="1">
+<position info="not_deleted" x="250" y="0"/>
+</item>
+<item historyLabel="Game" index="3">
+<position info="not_deleted" x="2348" y="0"/>
+</item>
+<item historyLabel="Player" index="4">
+<position info="not_deleted" x="0" y="831"/>
+</item>
+<item historyLabel="test" index="5">
+<position info="not_deleted" x="188" y="0"/>
+</item>
+<item historyLabel="Player" index="4">
+<position info="not_deleted" x="656" y="0"/>
+</item>
+<item historyLabel="Start" index="0">
+<position info="not_deleted" x="467" y="18"/>
+</item>
+<item historyLabel="Display" index="2">
+<position info="not_deleted" x="1593" y="0"/>
+</item>
+<item historyLabel="Words" index="1">
+<position info="not_deleted" x="250" y="0"/>
+</item>
+<item historyLabel="Game" index="3">
+<position info="not_deleted" x="2348" y="0"/>
+</item>
+<item historyLabel="Player" index="4">
+<position info="not_deleted" x="656" y="0"/>
+</item>
+<item historyLabel="Display" index="2">
+<position info="not_deleted" x="1593" y="0"/>
+</item>
+<item historyLabel="Start" index="0">
+<position info="not_deleted" x="467" y="18"/>
+</item>
+<item historyLabel="Game" index="3">
+<position info="not_deleted" x="2348" y="0"/>
+</item>
+<item historyLabel="Player" index="4">
+<position info="not_deleted" x="656" y="0"/>
+</item>
+<item historyLabel="Game" index="3">
+<position info="not_deleted" x="2348" y="0"/>
+</item>
+<item historyLabel="Player" index="4">
+<position info="not_deleted" x="656" y="0"/>
+</item>
+<item historyLabel="Start" index="0">
+<position info="not_deleted" x="467" y="18"/>
+</item>
+<item historyLabel="Display" index="2">
+<position info="not_deleted" x="1593" y="0"/>
+</item>
+<item historyLabel="Words" index="1">
+<position info="not_deleted" x="250" y="0"/>
+</item>
+<item historyLabel="Game" index="3">
+<position info="not_deleted" x="2348" y="0"/>
+</item>
+<item historyLabel="Player" index="4">
+<position info="not_deleted" x="656" y="0"/>
+</item>
+<item historyLabel="Start" index="0">
+<position info="not_deleted" x="467" y="18"/>
+</item>
+<item historyLabel="   t" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="fff" index="7">
+<position info="not_deleted" x="1155" y="0"/>
+</item>
+<item active="true" historyLabel="   t" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+<trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="fff.py" tooltip="OOP/fff.py">
+<persistable path="/OOP/fff.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="   t.py" tooltip="OOP/   t.py">
+<persistable path="/OOP/   t.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="test.py" tooltip="OOP_HangMan/test.py">
+<persistable path="/OOP_HangMan/test.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="Player.py" tooltip="OOP_HangMan/Player.py">
+<persistable path="/OOP_HangMan/Player.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="Game.py" tooltip="OOP_HangMan/Game.py">
+<persistable path="/OOP_HangMan/Game.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="Words.py" tooltip="OOP_HangMan/Words.py">
+<persistable path="/OOP_HangMan/Words.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="Display.py" tooltip="OOP_HangMan/Display.py">
+<persistable path="/OOP_HangMan/Display.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="Start.py" tooltip="OOP_HangMan/Start.py">
+<persistable path="/OOP_HangMan/Start.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="__init__.py" tooltip="OOP_HangMan/__init__.py">
+<persistable path="/OOP_HangMan/__init__.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="__init__.py" tooltip="OOP/__init__.py">
+<persistable path="/OOP/__init__.py"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="ConfigParser.py" tooltip="/usr/lib/python2.7/ConfigParser.py">
+<persistable uri="file:/usr/lib/python2.7/ConfigParser.py"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="gettext.py" tooltip="/usr/lib/python2.7/gettext.py">
+<persistable uri="file:/usr/lib/python2.7/gettext.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="Game.py" tooltip="config/Game.py">
+<persistable path="/config/Game.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="game2.py" tooltip="config/game2.py">
+<persistable path="/config/game2.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="calssDisplayMe.py" tooltip="config/calssDisplayMe.py">
+<persistable path="/config/calssDisplayMe.py"/>
+</file>
+</mruList>
+</workbench>

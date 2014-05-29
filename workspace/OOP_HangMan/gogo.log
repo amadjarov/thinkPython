@@ -1,0 +1,14 @@
+USER:gogo start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+peagon:p-----:p::p
+peagon:pe----:e::pe
+peagon:pea---:a::pea
+peagon:pea---:t:t:pea
+peagon:pea---:r:tr:pea
+peagon:pea---:y:try:pea
+peagon:pea---:j:tryj:pea
+peagon:pea---:f:tryjf:pea
+peagon:peag--:g:tryjf:peag
+peagon:peago-:o:tryjf:peago
+peagon:peagon:n:tryjf:peagon
+Player win and finish the game

@@ -1,0 +1,5 @@
+guess = raw_input()
+if len(guess) != 1 and guess not in "qwertyuioplkjhgfdsazxcvbnm":
+    print "You should type only one character from the alphabet"
+else:
+    print "good"

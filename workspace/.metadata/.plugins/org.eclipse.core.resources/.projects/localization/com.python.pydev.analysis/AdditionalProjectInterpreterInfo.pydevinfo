@@ -1,0 +1,17 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/avmadzharov/Angel/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/localization/com.python.pydev.analysis/v2_indexcache
+test|1394797965000|/home/avmadzharov/Angel/workspace/localization/test.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=test
+-- END DICTIONARY
+-- START TREE 1
+2
+_|1|_!11@
+t|1|t!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

@@ -1,0 +1,23 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/avmadzharov/Angel/.metadata/.plugins/org.eclipse.core.resources/.projects/Chapter11/com.python.pydev.analysis/v2_indexcache
+ex_11_3|1394027925000|/home/avmadzharov/Angel/workspace/Chapter11/ex_11_3.py
+ex_11_4|1394027925000|/home/avmadzharov/Angel/workspace/Chapter11/ex_11_4.py
+ex_11_1|1394027925000|/home/avmadzharov/Angel/workspace/Chapter11/ex_11_1.py
+-- END DISKCACHE
+-- START DICTIONARY
+3
+1=ex_11_3
+2=ex_11_4
+3=ex_11_1
+-- END DICTIONARY
+-- START TREE 1
+4
+pri|1|print_hist!10@
+rev|1|reverse_lookup!18@
+tes|1|tester!26@
+v|1|v!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

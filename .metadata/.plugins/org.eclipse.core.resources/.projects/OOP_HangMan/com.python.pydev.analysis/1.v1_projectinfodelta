@@ -1,0 +1,11 @@
+INSTUPWords
+/home/avmadzharov/Angel/workspace/OOP_HangMan/Words.py
+INFOS:&&1|1|2|0&&3|3|2|1&&3|4|2|1&&3|5|2|1&&2|6|2|1&&3|5|2|7&&2|8|2|1
+con=3
+category=5
+random_word=8
+Word=1
+cur=4
+random_category=6
+Words=2
+Word.random_category=7

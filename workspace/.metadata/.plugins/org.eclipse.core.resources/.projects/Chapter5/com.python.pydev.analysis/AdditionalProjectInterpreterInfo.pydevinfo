@@ -1,0 +1,33 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/avmadzharov/Angel/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/Chapter5/com.python.pydev.analysis/v2_indexcache
+ex5_3_2|1394027925000|/home/avmadzharov/Angel/workspace/Chapter5/ex5_3_2.py
+ex5_3_1|1394027925000|/home/avmadzharov/Angel/workspace/Chapter5/ex5_3_1.py
+ex5_4_1|1394027925000|/home/avmadzharov/Angel/workspace/Chapter5/ex5_4_1.py
+ex5_5|1394027925000|/home/avmadzharov/Angel/workspace/Chapter5/ex5_5.py
+ex5_4_2|1394027925000|/home/avmadzharov/Angel/workspace/Chapter5/ex5_4_2.py
+-- END DISKCACHE
+-- START DICTIONARY
+5
+2=ex5_3_2
+4=ex5_3_1
+5=ex5_4_1
+3=ex5_5
+1=ex5_4_2
+-- END DICTIONARY
+-- START TREE 1
+10
+a|2|a!11@a!19@
+b|2|b!11@b!19@
+bob|1|bob!27@
+c|2|c!11@c!19@
+che|2|check_fermat!34@check_fermat!18@
+is_|2|is_triangle!42@is_triangle!10@
+koc|1|koch!26@
+n|1|n!19@
+sno|1|snowflake!26@
+wor|1|world!27@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

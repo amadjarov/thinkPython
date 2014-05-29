@@ -1,0 +1,38 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/avmadzharov/Angel/.metadata/.plugins/org.eclipse.core.resources/.projects/Chapter18/com.python.pydev.analysis/v2_indexcache
+example|1394027925000|/home/avmadzharov/Angel/workspace/Chapter18/example.py
+-- END DISKCACHE
+-- START DICTIONARY
+7
+7=Card.__init__
+6=Deck.__init__
+4=Deck
+3=Hand
+1=example
+5=Hand.__init__
+2=Card
+-- END DICTIONARY
+-- START TREE 1
+4
+car|1|Card!9@
+dec|1|Deck!9@
+fin|1|find_defining_class!10@
+han|1|Hand!9@
+-- END TREE
+-- START TREE 2
+13
+__c|1|__cmp__!2&10@
+__i|3|__init__!3&10@__init__!4&10@__init__!2&10@
+__s|2|__str__!4&10@__str__!2&10@
+add|1|add_card!4&10@
+car|2|cards!5&11@cards!6&11@
+lab|1|label!5&11@
+mov|1|move_cards!4&10@
+pop|1|pop_card!4&10@
+ran|2|rank!7&11@rank_names!2&11@
+rem|1|remove_card!4&10@
+shu|1|shuffle!4&10@
+sor|1|sort!4&10@
+sui|2|suit_names!2&11@suit!7&11@
+-- END TREE

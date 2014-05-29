@@ -1,0 +1,22 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/avmadzharov/Angel/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/loggingFile/com.python.pydev.analysis/v2_indexcache
+test1|1395045756000|/home/avmadzharov/Angel/workspace/loggingFile/test1.py
+test|1395045341000|/home/avmadzharov/Angel/workspace/loggingFile/test.py
+read_file|1395156424000|/home/avmadzharov/Angel/workspace/loggingFile/read_file.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+1=test
+2=read_file
+-- END DICTIONARY
+-- START TREE 1
+4
+a|1|a!11@
+b|1|b!11@
+fo|1|fo!19@
+pa|1|pa!19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

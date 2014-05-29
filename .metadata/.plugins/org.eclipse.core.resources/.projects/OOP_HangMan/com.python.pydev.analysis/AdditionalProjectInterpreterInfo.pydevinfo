@@ -1,0 +1,61 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/avmadzharov/Angel/.metadata/.plugins/org.eclipse.core.resources/.projects/OOP_HangMan/com.python.pydev.analysis/v2_indexcache
+__init__|1396021306000|/home/avmadzharov/Angel/workspace/OOP_HangMan/__init__.py
+Start|1400238578000|/home/avmadzharov/Angel/workspace/OOP_HangMan/Start.py
+Player|1396429859000|/home/avmadzharov/Angel/workspace/OOP_HangMan/Player.py
+Display|1396429137000|/home/avmadzharov/Angel/workspace/OOP_HangMan/Display.py
+Game|1400239093000|/home/avmadzharov/Angel/workspace/OOP_HangMan/Game.py
+Words|1400225632000|/home/avmadzharov/Angel/workspace/OOP_HangMan/Words.py
+-- END DISKCACHE
+-- START DICTIONARY
+14
+14=MyError.__init__
+13=Player.ask_for_name
+12=DisplayME.set_state
+4=Start
+2=Player
+1=Display
+3=Game
+11=DisplayME.__init__
+8=Word.random_category
+10=Player.ask_for_char
+9=Word
+7=DisplayME
+6=MyError
+5=Words
+-- END DICTIONARY
+-- START TREE 1
+10
+T|2|T!11@T!19@
+_|2|_!19@_!11@
+dis|1|DisplayME!9@
+gam|1|Game!25@
+get|2|get_hidden!26@get_char!26@
+mai|1|main!34@
+mye|1|MyError!17@
+pla|2|Player!17@play!26@
+sel|1|self!27@
+wor|1|Word!41@
+-- END TREE
+-- START TREE 2
+18
+__i|3|__init__!3&26@__init__!6&18@__init__!7&10@
+__s|1|__str__!6&18@
+ask|2|ask_for_name!2&18@ask_for_char!2&18@
+cat|2|category!8&43@category!9&43@
+cha|2|char!10&19@char!2&19@
+con|2|con!9&43@con!3&27@
+cur|2|cur!9&43@cur!3&27@
+dis|4|display_text!7&10@display_man!7&10@display_hidden!7&10@display!3&27@
+gue|1|guess!3&27@
+han|2|hangman_pics!11&11@hangman_pics!7&11@
+hid|2|hidden!12&11@hidden!7&11@
+nam|2|name!13&19@name!2&19@
+ran|2|random_word!9&42@random_category!9&42@
+set|1|set_state!7&10@
+use|1|user!3&27@
+val|1|value!14&19@
+wor|2|word!12&11@word!7&11@
+wro|2|wrong_guess!12&11@wrong_guess!7&11@
+-- END TREE

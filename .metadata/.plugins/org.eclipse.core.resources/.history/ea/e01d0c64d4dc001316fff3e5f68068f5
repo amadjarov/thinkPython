@@ -1,0 +1,89 @@
+""" GAME """
+from Player import Player
+from Display import DisplayME
+import logging
+import MySQLdb as mdb
+
+class Game(object):
+    """The main class that plays the whole game"""
+    guess = ""
+    user = Player()
+    display = DisplayME()
+    con = mdb.connect('localhost', 'testuser', '1', 'hangman');
+    cur = con.cursor()
+    
+    def __init__(self, word, wrong_guess="", right_guess="", shots=6,
+                  hidden=""): 
+        self.word = word
+        self.wrong_guess = wrong_guess
+        self.right_guess = right_guess
+        self.shots = shots
+        self.hidden = hidden
+        self.allready_guess = self.right_guess + self.wrong_guess
+
+    def get_hidden(self):
+        """
+        Create the "hidden" word wit dashes "-" equal to the number of 
+        characters in the word and return this "hidden" word
+        """
+        self.hidden = '-'*len(self.word)
+        for i in range(len(self.word)):
+            if self.word[i] in self.right_guess:
+                self.hidden = self.hidden[:i] + self.word[i] + self.hidden[i+1:]
+        return self.hidden
+
+    def get_char(self):
+        """
+        Create an object from the Player class ask the actor to enter a 
+        character check if this character is valid one and return it
+        """
+        while True:
+            guess = self.user.ask_for_char()
+            guess = guess.lower()
+                
+            if len(guess) == 1 and guess in "abcdefghijklmnopqrstuvwxyz" and \
+                        guess not in self.allready_guess:
+                self.guess = guess
+                return
+            else:
+                self.display.display_text("valid")
+
+    def play(self):
+        """ This method generate the whole game """
+
+        no_repeat_word = "".join(set(self.word))
+        hidden = "-"*len(self.word)
+        while True:
+            #do_exit = False
+            result = None
+            self.allready_guess = self.wrong_guess + self.right_guess
+            self.get_char()
+            if self.guess in self.word:
+                self.right_guess += self.guess
+
+            else:
+                self.wrong_guess += self.guess
+
+            hidden = self.get_hidden()
+
+            self.display.set_state(self.word, hidden, self.wrong_guess)
+            self.display.display_man()
+            self.display.display_hidden()
+    
+            logging.info("%s:%s:%s:%s:%s", self.word, self.hidden, self.guess,
+                         self.wrong_guess, self.right_guess)
+
+            if len(self.wrong_guess) == self.shots:
+                with self.con:
+                    self.cur.execute("insert into game(result) values ('1');")
+                self.display.display_text("lose")
+                result = 'lost'
+
+            if len(self.right_guess) == len(no_repeat_word):
+                with self.con:
+                    self.cur.execute("insert into game(result) values ('1');")
+                self.display.display_text("win")
+                result = 'win'
+            if result is not None:
+                logging.info("Player %s and finish the game", result )
+                exit()

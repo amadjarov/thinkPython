@@ -1,0 +1,12 @@
+USER:gospod start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+bear:b---:b::b
+bear:b---:j:j:b
+bear:b---:k:jk:b
+bear:b---:y:jky:b
+bear:be--:e:jky:be
+bear:bea-:a:jky:bea
+bear:bea-:l:jkyl:bea
+bear:bea-:t:jkylt:bea
+bear:bear:r:jkylt:bear
+Player win and finish the game

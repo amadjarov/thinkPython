@@ -1,0 +1,22 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/avmadzharov/Angel/.metadata/.plugins/org.eclipse.core.resources/.projects/Chapter13/com.python.pydev.analysis/v2_indexcache
+test|1394027925000|/home/avmadzharov/Angel/workspace/Chapter13/test.py
+ex_13_1|1394027925000|/home/avmadzharov/Angel/workspace/Chapter13/ex_13_1.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+2=test
+1=ex_13_1
+-- END DICTIONARY
+-- START TREE 1
+5
+cle|1|clean!10@
+pun|1|punctuations!11@
+whi|1|whitespaces!11@
+wor|1|words!10@
+x|1|x!19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

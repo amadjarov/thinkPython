@@ -1,0 +1,31 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/avmadzharov/Angel/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/chapter4/com.python.pydev.analysis/v2_indexcache
+ex4_3_1|1394027925000|/home/avmadzharov/Angel/workspace/chapter4/ex4_3_1.py
+spiral|1394027925000|/home/avmadzharov/Angel/workspace/chapter4/spiral.py
+ex4_3_5|1394027925000|/home/avmadzharov/Angel/workspace/chapter4/ex4_3_5.py
+ex4_3_4|1394027925000|/home/avmadzharov/Angel/workspace/chapter4/ex4_3_4.py
+ex4_12|1394027925000|/home/avmadzharov/Angel/workspace/chapter4/ex4_12.py
+-- END DISKCACHE
+-- START DICTIONARY
+5
+3=ex4_3_1
+4=spiral
+1=ex4_3_5
+5=ex4_3_4
+2=ex4_12
+-- END DICTIONARY
+-- START TREE 1
+8
+arc|1|arc!10@
+bob|5|bob!19@bob!27@bob!35@bob!43@bob!11@
+cir|1|circle!42@
+dra|2|draw_spiral!34@draw_pie!18@
+iso|1|isosceles!18@
+pol|2|polypie!18@polygon!26@
+siz|1|size!19@
+wor|5|world!19@world!11@world!43@world!27@world!35@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

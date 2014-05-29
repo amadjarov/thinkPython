@@ -1,0 +1,38 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/avmadzharov/Angel/.metadata/.plugins/org.eclipse.core.resources/.projects/Chapter10/com.python.pydev.analysis/v2_indexcache
+ex_10_9|1394027925000|/home/avmadzharov/Angel/workspace/Chapter10/ex_10_9.py
+ex_10_8|1394027925000|/home/avmadzharov/Angel/workspace/Chapter10/ex_10_8.py
+test|1394027925000|/home/avmadzharov/Angel/workspace/Chapter10/test.py
+ex_10_4|1394027925000|/home/avmadzharov/Angel/workspace/Chapter10/ex_10_4.py
+ex_10_7|1394027925000|/home/avmadzharov/Angel/workspace/Chapter10/ex_10_7.py
+ex_10_6|1394027925000|/home/avmadzharov/Angel/workspace/Chapter10/ex_10_6.py
+ex_10_2|1394027925000|/home/avmadzharov/Angel/workspace/Chapter10/ex_10_2.py
+ex_10_3|1394027925000|/home/avmadzharov/Angel/workspace/Chapter10/ex_10_3.py
+ex_10_1|1394027925000|/home/avmadzharov/Angel/workspace/Chapter10/ex_10_1.py
+-- END DISKCACHE
+-- START DICTIONARY
+9
+3=ex_10_9
+4=ex_10_8
+9=test
+7=ex_10_4
+5=ex_10_7
+6=ex_10_6
+1=ex_10_2
+2=ex_10_3
+8=ex_10_1
+-- END DICTIONARY
+-- START TREE 1
+7
+cap|1|capitalize_all!10@
+cum|1|cumulative!18@
+has|2|has_dupicates!26@has_dupicates!34@
+is_|2|is_anagram!42@is_sorted!50@
+mid|1|middle!58@
+nes|1|nested_sum!66@
+num|1|numbers!75@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

@@ -1,0 +1,12 @@
+USER:robin start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+orange:--a---:a::a
+orange:--a--e:e::ae
+orange:-ra--e:r::aer
+orange:-ra--e:t:t:aer
+orange:-ra--e:y:ty:aer
+orange:-ra--e:u:tyu:aer
+orange:-ra--e:q:tyuq:aer
+orange:-ra--e:s:tyuqs:aer
+orange:-ra--e:b:tyuqsb:aer
+Player lost and finish the game

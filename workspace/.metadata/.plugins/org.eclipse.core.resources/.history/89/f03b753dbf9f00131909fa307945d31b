@@ -1,0 +1,10 @@
+class Time(object):
+    pass
+
+time = Time()
+time.hour = 11
+time.minutes = 59
+time.seconds = 30
+
+def print_time(t):
+    print '%.2d:%.2d:%.2d' % (t.hour, t.minute, t.second)

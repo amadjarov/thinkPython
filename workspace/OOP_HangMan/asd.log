@@ -1,0 +1,46 @@
+USER:asd start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+coffee:c-----:c::c
+coffee:co----:o::co
+coffee:co----:g:g:co
+coffee:co----:r:gr:co
+coffee:coff--:f:gr:cof
+coffee:coffee:e:gr:cofe
+Player win and finish the game
+USER:asd start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+asthma:a----a:a::a
+asthma:as---a:s::as
+asthma:as---a:d:d:as
+asthma:as---a:f:df:as
+USER:asd start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+USER:asd start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+USER:asd start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+USER:asd start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+aligator:a---a---:a::a
+aligator:a---a---:d:d:a
+aligator:a---a--r:r:d:ar
+aligator:a---at-r:t:d:art
+aligator:a---at-r:y:dy:art
+aligator:a---at-r:h:dyh:art
+USER:asd start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+eagle:-----:d:d:
+USER:asd start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+orange:-r----:r::r
+orange:-r----:h:h:r
+orange:-r----:t:ht:r
+orange:-r----:y:hty:r
+orange:-r----:j:htyj:r
+orange:-r----:k:htyjk:r
+orange:-r----:u:htyjku:r
+Player lost and finish the game
+USER:asd start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+USER:asd start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="312" key="DIALOG_WIDTH"/>
+		<item value="332" key="DIALOG_Y_ORIGIN"/>
+		<item value="655" key="DIALOG_X_ORIGIN"/>
+		<item value="437" key="DIALOG_HEIGHT"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="hangman_pics" key="selection"/>
+		<list key="findhistory">
+			<item value="HANGMANPICS"/>
+			<item value="player"/>
+			<item value="currentWord"/>
+			<item value="category"/>
+			<item value="DesplayMe"/>
+			<item value="user"/>
+			<item value="Parser"/>
+			<item value="parser"/>
+		</list>
+		<list key="replacehistory">
+			<item value="hangman_pics"/>
+			<item value="PLAYER"/>
+			<item value="CURRENT_WORD"/>
+			<item value="PARSER"/>
+			<item value="Parser"/>
+			<item value="ask_for_name"/>
+			<item value="display_text"/>
+			<item value="display_hidden"/>
+		</list>
+	</section>
+</section>

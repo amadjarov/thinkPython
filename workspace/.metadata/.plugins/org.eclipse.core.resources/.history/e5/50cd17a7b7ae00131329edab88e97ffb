@@ -1,0 +1,20 @@
+from calssDisplayMe import *
+
+with open('2014-03-18 16:25:17.549285.log') as f:
+    for line in f:
+        if line.startswith("#"):
+            pass
+
+fo=open("2014-03-18 16:25:17.549285.log")
+lines=fo.readlines()
+lineAsList = lines[4].split(":")
+print lineAsList[4]   
+
+fo=open("2014-03-18 16:25:17.549285.log")
+lines=fo.readlines()
+lineAsList = lines[5].split(":")
+
+achoHang = desplayME(HANGMANPICS)
+achoHang.set_state(lineAsList[0], lineAsList[1],lineAsList[3])
+achoHang.desplayMan()
+achoHang.desplayHidden()

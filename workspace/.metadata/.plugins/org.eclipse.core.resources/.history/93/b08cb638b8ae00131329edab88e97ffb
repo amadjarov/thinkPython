@@ -1,0 +1,5 @@
+with open('2014-03-18 16:25:17.549285.log') as f:
+    for line in f:
+        if line.startswith("#"):
+            print line
+            print line

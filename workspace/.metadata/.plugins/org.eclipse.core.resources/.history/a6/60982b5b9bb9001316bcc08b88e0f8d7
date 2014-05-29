@@ -1,0 +1,95 @@
+import gettext
+T = gettext.translation('config', "./locales", languages=['bg_BG','en_US'])
+_ = T.ugettext
+class DesplayME(object):
+    """
+    Class to desplay the hangman picture and the hidden word
+    """
+
+    HANGMANPICS = ['''
+      +---+
+      |   |
+          |
+          |
+          |
+          |
+    =========''', '''
+      +---+
+      |   |
+      O   |
+          |
+          |
+          |
+    =========''', '''
+      +---+
+      |   |
+      O   |
+      |   |
+          |
+          |
+    =========''', '''
+      +---+
+      |   |
+      O   |
+     /|   |
+          |
+          |
+    =========''', '''
+      +---+
+      |   |
+      O   |
+     /|\  |
+          |
+          |
+    =========''', '''
+      +---+
+      |   |
+      O   |
+     /|\  |
+     /    |
+          |
+    =========''', '''
+      +---+
+      |   |
+      O   |
+     /|\  |
+     / \  |
+          |
+    =========''']
+    
+    def __init__(self, pics = None):
+        self.HANGMANPICS = pics or self.HANGMANPICS
+    
+    def set_state(self, word,hidden, wrong_guess=""):
+        """
+        This method set the state for desokayMe class
+        """
+        self.word = word
+        self.hidden = hidden
+        self.wrong_guess = wrong_guess
+
+    def display_man(self):
+        """
+        Print the hanging word according to the number of characters
+         in the wrong_guess
+        """
+        print self.HANGMANPICS[len(self.wrong_guess)]
+    
+    def display_hidden(self):
+        """
+        Pirnts the hidden word from the set_state
+        """
+        print self.hidden
+    
+    def display_text(self,key):
+        """
+        Print appropriate statement according to the key value
+        """
+        if key == "lose":
+            print _(" You lose the word was[ {word} ] try next time").format(word=self.word)
+        elif key == "win":
+            print _(" You are smart the word was [ {word} ] Good job").format(word=self.word)
+        elif key == "valid":
+            print _("You should enter only one character from the alphabet without repeating it")
+        
+

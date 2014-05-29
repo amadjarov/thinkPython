@@ -1,0 +1,31 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/avmadzharov/Angel/.metadata/.plugins/org.eclipse.core.resources/.projects/Chapter14/com.python.pydev.analysis/v2_indexcache
+ex_14_2|1394460642000|/home/avmadzharov/Angel/workspace/Chapter14/ex_14_2.py
+ex|1394027925000|/home/avmadzharov/Angel/workspace/Chapter14/ex.py
+ex_14_6|1394027925000|/home/avmadzharov/Angel/workspace/Chapter14/ex_14_6.py
+test|1394027925000|/home/avmadzharov/Angel/workspace/Chapter14/test.py
+test2|1394027925000|/home/avmadzharov/Angel/workspace/Chapter14/test2.py
+-- END DISKCACHE
+-- START DICTIONARY
+5
+4=ex_14_2
+2=ex
+1=ex_14_6
+3=test
+5=test2
+-- END DICTIONARY
+-- START TREE 1
+8
+con|2|conn!11@conn!19@
+cwd|1|cwd!27@
+lin|1|line!11@
+sed|1|sed!34@
+sig|1|signature!42@
+url|1|url!11@
+wal|1|walk!26@
+zip|1|zipcode!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

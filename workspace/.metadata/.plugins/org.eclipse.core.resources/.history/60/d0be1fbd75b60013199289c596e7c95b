@@ -1,0 +1,73 @@
+from Words import *
+from Player import *
+from calssDisplayMe import *
+
+class Game(object):
+
+    display = desplayME()
+
+    def __init__(self,word,wrongGuess="",rightGuess="",SHOTS=6,hidden=""):
+        self.word=word
+        self.wrongGuess=wrongGuess
+        self.rightGuess=rightGuess
+        self.SHOTS=SHOTS
+        self.hidden=hidden
+        self.allreadyGuess=self.rightGuess + self.wrongGuess
+        
+    
+    def get_hidden(self):
+
+        self.hidden = '-'*len(self.word)
+        for i in range(len(self.word)):
+            if self.word[i] in self.rightGuess:
+                self.hidden = self.hidden[:i] + self.word[i] +self.hidden[i+1:]
+        return self.hidden
+    
+    def getChar(self):
+        
+        while True:
+            print (" Please enter a character")
+            user = Player()
+            guess = user.askForChar()
+            guess = guess.lower()
+        
+            if len(guess) == 1 and guess in "abcdefghijklmnopqrstuvwxyz" and guess not in self.allreadyGuess: #==Change here
+                self.guess = guess
+                return
+            else:
+                print ("You should enter only one character from the alphabet without repeating it")
+
+    
+    def play(self):
+        noRepeatWord="".join(set(self.word))
+        hidden = "-"*len(self.word)
+        while True:
+            do_exit = False
+            result = None
+            self.allreadyGuess = self.wrongGuess + self.rightGuess #================== change here
+            self.getChar()
+            if self.guess in self.word:
+                self.rightGuess += self.guess
+        
+            else:
+                self.wrongGuess += self.guess
+    
+            hidden = self.get_hidden()
+    
+            self.display.set_state(self.word, hidden, self.wrongGuess)
+            self.display.desplayMan()
+            self.display.desplayHidden()
+    
+    
+            if len(self.wrongGuess) == self.SHOTS:
+                print (" You lose the word was[ {word} ] try next time").format(word=self.word)
+                result = 'lost'
+
+            if len(self.rightGuess) == len(noRepeatWord):
+                print (" You are smart the word was [ {word} ] Good job").format(word = self.word)
+                result = 'win'
+            if result is not None:
+                exit()
+                
+                
+    

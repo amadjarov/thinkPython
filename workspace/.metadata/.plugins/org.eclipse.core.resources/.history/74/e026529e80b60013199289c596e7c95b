@@ -1,0 +1,5 @@
+class Prints(object):
+    def Print(self,a):
+        if a == "win":
+            
+        

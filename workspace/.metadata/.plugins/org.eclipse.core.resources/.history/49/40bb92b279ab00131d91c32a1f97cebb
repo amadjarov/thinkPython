@@ -1,0 +1,157 @@
+import random
+import sys
+from ConfigParser import SafeConfigParser
+import gettext
+
+t = gettext.translation('game', "/home/avmadzharov/Angel/workspace/config/locales/")
+_ = t.ugettext
+
+parser = SafeConfigParser()
+parser.read('config.ini')
+
+HANGMANPICS = ['''
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+      |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+  |   |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+ /|   |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ /    |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ / \  |
+      |
+=========''']
+
+SHOTS = parser.getint('shots', 'number_of_tryes')
+fileWords = parser.get('categories', 'file_with_words')
+
+with open(fileWords) as f:
+    words = f.read().split()
+
+word = random.choice(words)
+print word
+wordLength = len(word)
+noRepeatWord="".join(set(word))
+wrongGuess = ""
+rightGuess = ""
+hidden = "-"*wordLength
+
+print _(" Hello this is HANGMAN game!!! Enjooy")
+print _(" U can guess wrong only 6 times")
+print _(" Hint : words are only animals ")
+print _(" The word you should guess has ") + str(wordLength)+ _(" characters")
+print hidden
+print HANGMANPICS[0]
+def display(HANGMANPICS, wrongGuess):
+    """
+    Displays the pictures from HANGMANPIC according to the wronGuess number
+    
+    >>> display(HANGMANPICS, 1):
+      +---+
+      |   |
+      O   |
+          |
+          |
+          |
+    =========
+    
+    >>> display(HANGMANPICS, 1):
+      +---+
+      |   |
+      O   |
+      |   |
+          |
+          |
+    =========
+    """
+    global hidden
+    print HANGMANPICS[len(wrongGuess)] #================second change here
+    for i in range(len(word)):
+        if word[i] in rightGuess:
+            hidden = hidden[:i] + word[i] +hidden[i+1:]
+    print hidden   
+
+        
+def getChar(wrongGuess, allreadyGuess):
+    """
+    Ask the user to guess a character, check the entered value to be in the
+    alphabet, to be one single character, and NOT to be all ready typed in 
+    
+    >>>Please enter a character
+    >>>1
+    You should enter only one character from the alphabet without repeating it
+    
+    >>>Please enter a character
+    >>>asdasd
+    You should enter only one character from the alphabet without repeating it
+    
+    >>> Please enter a character
+    >>>a
+    True
+    """
+    leng = 0
+    while leng < SHOTS:
+        print " Please enter a character"
+        guess = raw_input()
+        guess = guess.lower()
+        
+        if len(guess) == 1 and guess in "abcdefghijklmnopqrstuvwxyz" and guess not in allreadyGuess: #==Change here
+            return guess
+        else:
+            print _("You should enter only one character from the alphabet without repeating it")
+
+while True:
+    allreadyGuess = wrongGuess + rightGuess #================== change her
+    guess = getChar(wrongGuess, allreadyGuess)
+    
+    if guess in word:
+        rightGuess += guess
+    else:
+        wrongGuess += guess
+    
+    display(HANGMANPICS, wrongGuess)
+    
+    if len(wrongGuess) == SHOTS:
+        print _(" You loose the word was {") +word+ _("} try next time")
+        sys.exit()
+    if len(rightGuess) == len(noRepeatWord):
+        print _(" You are smart the word was  {") +word+ _("} Good job")
+        sys.exit()

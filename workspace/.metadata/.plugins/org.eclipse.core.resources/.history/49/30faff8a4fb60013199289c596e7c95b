@@ -1,0 +1,72 @@
+class desplayME(object):
+    """
+    Class to desplay the hangman picture and the hidden word
+    """
+    def __init__(self, HANGMANPICS):
+        """
+        Initialize the object with the HANGMANPICS list
+        """
+        self.HANGMANPICS = HANGMANPICS
+    
+    def set_state(self, word,hidden, wrongGuess="" ):
+        self.word = word
+        self.hidden = hidden
+        self.wrongGuess = wrongGuess
+
+    def desplayMan(self,):
+        print self.HANGMANPICS[len(self.wrongGuess)]
+    
+    def desplayHidden(self):
+        print self.hidden       
+        
+HANGMANPICS = ['''
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+      |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+  |   |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+ /|   |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ /    |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ / \  |
+      |
+=========''']
+

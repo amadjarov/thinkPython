@@ -1,0 +1,19 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/avmadzharov/Angel/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/Chapter6/com.python.pydev.analysis/v2_indexcache
+ex6_7|1394027925000|/home/avmadzharov/Angel/workspace/Chapter6/ex6_7.py
+ex6_8|1394027925000|/home/avmadzharov/Angel/workspace/Chapter6/ex6_8.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+2=ex6_7
+1=ex6_8
+-- END DICTIONARY
+-- START TREE 1
+2
+gcd|1|gcd!10@
+is_|1|is_power!18@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

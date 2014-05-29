@@ -1,0 +1,50 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/avmadzharov/Angel/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/Chapter17/com.python.pydev.analysis/v2_indexcache
+ex|1394027925000|/home/avmadzharov/Angel/workspace/Chapter17/ex.py
+ex_17_6|1394027925000|/home/avmadzharov/Angel/workspace/Chapter17/ex_17_6.py
+ex_17_5|1394027925000|/home/avmadzharov/Angel/workspace/Chapter17/ex_17_5.py
+test|1394027925000|/home/avmadzharov/Angel/workspace/Chapter17/test.py
+ex_17_4|1394027925000|/home/avmadzharov/Angel/workspace/Chapter17/ex_17_4.py
+ex_17_3|1394027925000|/home/avmadzharov/Angel/workspace/Chapter17/ex_17_3.py
+ex_17_2|1394027925000|/home/avmadzharov/Angel/workspace/Chapter17/ex_17_2.py
+-- END DISKCACHE
+-- START DICTIONARY
+11
+2=ex
+4=ex_17_6
+8=Time
+1=ex_17_5
+11=Point.__init__
+3=test
+10=Time.__init__
+6=ex_17_4
+7=ex_17_3
+9=Point
+5=ex_17_2
+-- END DICTIONARY
+-- START TREE 1
+5
+bla|2|blank1!11@blank!11@
+int|3|int_to_time!18@int_to_time!26@int_to_time!34@
+mai|2|main!34@main!26@
+poi|8|point!43@Point!9@point1!51@point2!51@Point!49@Point!57@point!59@Point!41@
+tim|3|Time!17@Time!33@Time!25@
+-- END TREE
+-- START TREE 2
+14
+__a|5|__add__!8&34@__add__!9&10@__add__!9&50@__add__!8&26@__add__!8&18@
+__i|6|__init__!9&50@__init__!8&34@__init__!9&58@__init__!9&42@__init__!8&18@__init__!8&26@
+__r|3|__radd__!8&34@__radd__!8&18@__radd__!8&26@
+__s|5|__str__!8&34@__str__!8&18@__str__!8&26@__str__!9&58@__str__!9&50@
+add|4|add_point!9&10@add_time!8&18@add_time!8&26@add_time!8&34@
+hou|2|hour!10&27@hour!10&19@
+inc|3|increment!8&26@increment!8&18@increment!8&34@
+is_|6|is_after!8&18@is_after!8&26@is_valid!8&18@is_valid!8&34@is_valid!8&26@is_after!8&34@
+min|2|minute!10&27@minute!10&19@
+pri|5|print_time!8&26@print_point!9&10@print_time!8&34@print_time!8&18@print_point!9&42@
+sec|3|second!10&27@seconds!10&35@second!10&19@
+tim|3|time_to_int!8&26@time_to_int!8&34@time_to_int!8&18@
+x|3|x!11&43@x!11&59@x!11&51@
+y|3|y!11&51@y!11&43@y!11&59@
+-- END TREE

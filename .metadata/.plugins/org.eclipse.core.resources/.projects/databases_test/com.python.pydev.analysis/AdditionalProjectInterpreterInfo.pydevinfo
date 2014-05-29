@@ -1,0 +1,43 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/avmadzharov/Angel/.metadata/.plugins/org.eclipse.core.resources/.projects/databases_test/com.python.pydev.analysis/v2_indexcache
+first_test|1400152725000|/home/avmadzharov/Angel/databases_test/first_test.py
+prepare_statements|1400073163000|/home/avmadzharov/Angel/databases_test/prepare_statements.py
+test_con_hangman|1400159089000|/home/avmadzharov/Angel/databases_test/test_con_hangman.py
+reading_iamges|1400074263000|/home/avmadzharov/Angel/databases_test/reading_iamges.py
+dictionary_cursor|1400072483000|/home/avmadzharov/Angel/databases_test/dictionary_cursor.py
+insert_images|1400073779000|/home/avmadzharov/Angel/databases_test/insert_images.py
+multiple_insert|1400239616000|/home/avmadzharov/Angel/databases_test/multiple_insert.py
+column_headers|1400072691000|/home/avmadzharov/Angel/databases_test/column_headers.py
+first_test_rowByrow|1400072573000|/home/avmadzharov/Angel/databases_test/first_test_rowByrow.py
+-- END DISKCACHE
+-- START DICTIONARY
+9
+5=first_test
+2=prepare_statements
+9=reading_iamges
+6=test_con_hangman
+3=dictionary_cursor
+8=insert_images
+1=multiple_insert
+7=column_headers
+4=first_test_rowByrow
+-- END DICTIONARY
+-- START TREE 1
+12
+a|1|a!11@
+b|1|b!11@
+c|1|c!11@
+con|9|con!19@con!27@con!35@con!11@con!43@con!51@con!59@con!67@con!75@
+cur|9|cur!67@cur!75@cur!43@cur!35@cur!59@cur!27@cur!19@cur!51@cur!11@
+dat|2|data!75@data!67@
+des|1|desc!59@
+i|1|i!11@
+rea|1|read_image!66@
+row|4|row!35@rows!27@rows!59@rows!43@
+ver|1|ver!43@
+wri|1|writeImage!74@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

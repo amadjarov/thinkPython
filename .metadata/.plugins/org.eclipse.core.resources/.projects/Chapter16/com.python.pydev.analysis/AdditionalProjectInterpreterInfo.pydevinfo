@@ -1,0 +1,25 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/avmadzharov/Angel/.metadata/.plugins/org.eclipse.core.resources/.projects/Chapter16/com.python.pydev.analysis/v2_indexcache
+ex_16_4|1394027925000|/home/avmadzharov/Angel/workspace/Chapter16/ex_16_4.py
+ex_16_2|1394027925000|/home/avmadzharov/Angel/workspace/Chapter16/ex_16_2.py
+ex_16_3|1394027925000|/home/avmadzharov/Angel/workspace/Chapter16/ex_16_3.py
+ex_16_1|1394027925000|/home/avmadzharov/Angel/workspace/Chapter16/ex_16_1.py
+-- END DISKCACHE
+-- START DICTIONARY
+4
+2=ex_16_4
+3=ex_16_2
+1=ex_16_3
+4=ex_16_1
+-- END DICTIONARY
+-- START TREE 1
+4
+inc|2|increment!10@increment!18@
+is_|1|is_after!26@
+pri|1|print_time!34@
+tim|5|time2!27@time1!27@time!35@Time!25@Time!33@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

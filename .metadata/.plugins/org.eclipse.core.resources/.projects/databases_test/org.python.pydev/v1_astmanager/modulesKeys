@@ -1,0 +1,10 @@
+MODULES_MANAGER_V2
+column_headers|/home/avmadzharov/Angel/databases_test/column_headers.py
+dictionary_cursor|/home/avmadzharov/Angel/databases_test/dictionary_cursor.py
+first_test|/home/avmadzharov/Angel/databases_test/first_test.py
+first_test_rowByrow|/home/avmadzharov/Angel/databases_test/first_test_rowByrow.py
+insert_images|/home/avmadzharov/Angel/databases_test/insert_images.py
+multiple_insert|/home/avmadzharov/Angel/databases_test/multiple_insert.py
+prepare_statements|/home/avmadzharov/Angel/databases_test/prepare_statements.py
+reading_iamges|/home/avmadzharov/Angel/databases_test/reading_iamges.py
+test_con_hangman|/home/avmadzharov/Angel/databases_test/test_con_hangman.py

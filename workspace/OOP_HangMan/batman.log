@@ -1,0 +1,9 @@
+USER:batman start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+orange:o-----:o::o
+orange:o----e:e::oe
+orange:or---e:r::oer
+orange:ora--e:a::oera
+orange:oran-e:n::oeran
+orange:orange:g::oerang
+Player win and finish the game

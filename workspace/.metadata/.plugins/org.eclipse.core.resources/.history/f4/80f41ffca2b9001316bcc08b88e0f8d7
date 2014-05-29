@@ -1,0 +1,33 @@
+"""From here we start the game"""
+from ConfigParser import SafeConfigParser
+import gettext
+from Display import *
+from Player import *
+from Words import *
+from Game import *
+
+if __name__ == "__main__":
+    PARSER = SafeConfigParser()
+    PARSER.read('config.ini')
+
+    SHOTS = PARSER.getint('shots', 'number_of_tryes')
+
+    CURRENT_WORD = Word()
+    CATEGORY = CURRENT_WORD.random_category()
+    
+    USER = Player()
+    PLAYER = USER.ask_for_name()
+
+    fileName = "%s.log" % PLAYER
+    logging.basicConfig(filename=fileName, level=logging.DEBUG,
+                         format='%(message)s')
+    logging.info("USER:%s start the game and has %s wrong turns",
+                  PLAYER, SHOTS )
+    logging.info("###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]")
+    
+    word = CURRENT_WORD.random_word()
+    print word
+    
+    playFun = Game(word)
+    
+    playFun.play()

@@ -1,0 +1,18 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/avmadzharov/Angel/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/chapter3/com.python.pydev.analysis/v2_indexcache
+mypolygon|1394027925000|/home/avmadzharov/Angel/workspace/chapter3/mypolygon.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=mypolygon
+-- END DICTIONARY
+-- START TREE 1
+3
+bob|1|bob!11@
+squ|1|square!10@
+wor|1|world!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

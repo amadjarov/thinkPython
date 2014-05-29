@@ -1,0 +1,10 @@
+def int_to_roman(input):
+    if type(input) != type(1):
+        raise TypeError, "expected integer, got %s" % type(input)
+    if not 0 < input < 4000:
+        raise ValueError, "Argument must be between 1 and 3999"
+    romans = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+   
+    print romans[input]
+        
+int_to_roman(5)

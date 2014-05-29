@@ -1,0 +1,25 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/avmadzharov/Angel/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/Doctesting/com.python.pydev.analysis/v2_indexcache
+test1|1394544397000|/home/avmadzharov/Angel/workspace/Doctesting/test1.py
+fibo|1394545241000|/home/avmadzharov/Angel/workspace/Doctesting/fibo.py
+test2|1394545225000|/home/avmadzharov/Angel/workspace/Doctesting/test2.py
+test3|1394547371000|/home/avmadzharov/Angel/workspace/Doctesting/test3.py
+-- END DISKCACHE
+-- START DICTIONARY
+4
+3=test1
+2=fibo
+4=test2
+1=test3
+-- END DICTIONARY
+-- START TREE 1
+4
+con|1|convert!10@
+fib|1|fibo!18@
+for|1|format_list!26@
+qua|1|quad!34@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

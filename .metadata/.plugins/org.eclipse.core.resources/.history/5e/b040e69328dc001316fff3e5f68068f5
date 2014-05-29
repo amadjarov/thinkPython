@@ -1,0 +1,34 @@
+"""Words"""
+import random
+import MySQLdb as mdb
+class Word(object):
+    """Class to randomly select word and category"""
+    con = mdb.connect('localhost', 'testuser', '1', 'hangman')
+    cur = con.cursor()
+    category = ""
+    
+    def random_category(self):
+        """
+        Randomly select one category
+        """
+        
+        
+        #self.category = "categories/" + (random.choice(["colors", "animals",
+                                                        #"others"]))
+        self.category = "categories/" + (cur.execute("SELECT categorycol \
+        FROM category ORDER BY RAND() LIMIT 1;") )
+        
+        
+        return self.category
+
+    def random_word(self):
+        """
+        Open the file with the category and randomly select one word from it
+        """
+#         with open(self.category) as fo1:
+#             words = fo1.read().split()
+#         word = random.choice(words)
+#         return word
+        
+        word = (cur.execute("SELECT word \
+        FROM word ORDER BY RAND() LIMIT 1;") )

@@ -1,0 +1,12 @@
+d = {'s': [], 'p': [], 'a': [], 'm': []}
+l = ['s', 'p', 'a', 'm']
+
+def lookup_dict(d):
+    return 's' in d
+
+def lookup_list(l):
+    return 's' in l
+
+print lookup_dict(d)
+
+print lookup_list(l)

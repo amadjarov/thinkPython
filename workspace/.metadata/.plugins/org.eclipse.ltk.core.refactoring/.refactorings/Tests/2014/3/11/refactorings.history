@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Tests/re.search.py&apos; to &apos;re_search.py&apos;" description="Rename resource &apos;re.search.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="re.search.py" name="re_search.py" stamp="1394614140923" updateReferences="true"/>
+</session>

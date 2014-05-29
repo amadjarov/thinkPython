@@ -1,0 +1,6 @@
+guess = raw_input()
+aphabet = 'abcdefghijklmnopqrstuvwxyz'
+if len(guess) == 1 and guess in aphabet:
+    print "raboti"
+else:
+    print "ne"

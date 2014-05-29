@@ -1,0 +1,46 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/avmadzharov/Angel/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/Tests/com.python.pydev.analysis/v2_indexcache
+test1|1394620032000|/home/avmadzharov/Angel/workspace/Tests/test1.py
+roman_to_arabic|1395395432000|/home/avmadzharov/Angel/workspace/Tests/roman_to_arabic.py
+re_search|1395830686000|/home/avmadzharov/Angel/workspace/Tests/re_search.py
+test|1394547837000|/home/avmadzharov/Angel/workspace/Tests/test.py
+test4|1394626016000|/home/avmadzharov/Angel/workspace/Tests/test4.py
+test2|1394550616000|/home/avmadzharov/Angel/workspace/Tests/test2.py
+test3|1394550923000|/home/avmadzharov/Angel/workspace/Tests/test3.py
+pritntWord|1394539887000|/home/avmadzharov/Angel/workspace/Tests/pritntWord.py
+-- END DISKCACHE
+-- START DICTIONARY
+9
+8=Student
+3=roman_to_arabic
+2=test1
+4=re_search
+5=test
+1=test4
+9=Student.__init__
+7=pritntWord
+6=test3
+-- END DICTIONARY
+-- START TREE 1
+11
+a|2|a!11@a!19@
+b|1|b!19@
+int|1|int_to_roman!26@
+mat|1|match!35@
+new|1|newcourse!43@
+num|1|numeral_map!51@
+raw|1|raw!19@
+rel|1|relatives!59@
+rom|2|roman_to_int!26@roman2arabic!26@
+str|1|str!35@
+stu|2|Student!41@student1!43@
+-- END TREE
+-- START TREE 2
+5
+__i|1|__init__!8&42@
+cou|1|courses!9&43@
+enr|1|enroll!8&42@
+nam|1|name!9&43@
+pri|1|printDetails!8&42@
+-- END TREE

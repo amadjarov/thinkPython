@@ -1,0 +1,15 @@
+MODULES_MANAGER_V2
+Game|/home/avmadzharov/Angel/workspace/config/Game.py
+Player|/home/avmadzharov/Angel/workspace/config/Player.py
+Words|/home/avmadzharov/Angel/workspace/config/Words.py
+__init__|/home/avmadzharov/Angel/workspace/config/__init__.py
+calssDisplayMe|/home/avmadzharov/Angel/workspace/config/calssDisplayMe.py
+first|/home/avmadzharov/Angel/workspace/config/first.py
+game|/home/avmadzharov/Angel/workspace/config/game.py
+game2|/home/avmadzharov/Angel/workspace/config/game2.py
+reLoad|/home/avmadzharov/Angel/workspace/config/reLoad.py
+read_from_logfile|/home/avmadzharov/Angel/workspace/config/read_from_logfile.py
+test|/home/avmadzharov/Angel/workspace/config/test.py
+testForPrints|/home/avmadzharov/Angel/workspace/config/testForPrints.py
+testing_configParser|/home/avmadzharov/Angel/workspace/config/testing_configParser.py
+testt|/home/avmadzharov/Angel/workspace/config/testt.py

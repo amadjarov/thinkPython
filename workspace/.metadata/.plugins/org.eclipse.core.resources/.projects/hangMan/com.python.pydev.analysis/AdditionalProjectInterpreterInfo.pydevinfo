@@ -1,0 +1,52 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/avmadzharov/Angel/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/hangMan/com.python.pydev.analysis/v2_indexcache
+test|1394027925000|/home/avmadzharov/Angel/workspace/hangMan/test.py
+hidden|1394094421000|/home/avmadzharov/Angel/workspace/hangMan/hidden.py
+hangMan2|1394701093000|/home/avmadzharov/Angel/workspace/hangMan/hangMan2.py
+strings|1394027925000|/home/avmadzharov/Angel/workspace/hangMan/strings.py
+HangMan|1394703087000|/home/avmadzharov/Angel/workspace/hangMan/HangMan.py
+test2|1394028993000|/home/avmadzharov/Angel/workspace/hangMan/test2.py
+-- END DISKCACHE
+-- START DICTIONARY
+7
+7=HangMan.__init__
+3=test
+5=hidden
+4=hangMan2
+1=strings
+6=HangMan
+2=test2
+-- END DICTIONARY
+-- START TREE 1
+19
+a|1|a!11@
+alp|1|alphabet!19@
+b|1|b!11@
+c|1|c!11@
+d|1|d!11@
+dis|2|display!26@display!34@
+get|2|getChar!26@getChar!34@
+gue|2|gues!43@guess!19@
+han|4|HangMan!49@HANGMANPICS!27@HANGMANPICS!51@HANGMANPICS!35@
+hid|2|hidden!35@hidden!51@
+len|1|leng!27@
+lis|2|listD!11@listC!11@
+mai|1|main!50@
+new|1|new!43@
+nor|2|noRepeatWord!35@noRepeatWord!51@
+rig|2|rightGuess!35@rightGuess!27@
+sho|1|SHOTS!35@
+wor|9|wordIndex!27@words!51@word!27@word!43@words!35@words!27@word!35@wordLength!35@word!51@
+wro|2|wrongGuess!27@wrongGuess!35@
+-- END TREE
+-- START TREE 2
+7
+__i|1|__init__!6&50@
+dis|1|display!6&50@
+gue|1|gues!6&50@
+han|2|hangman_lose!6&50@hangman_win!6&50@
+rig|1|rightGuess!7&51@
+wor|1|word!7&51@
+wro|1|wrongGuess!7&51@
+-- END TREE

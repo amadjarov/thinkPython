@@ -1,0 +1,9 @@
+USER:tyu start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+1:-:t:t:
+1:-:r:tr:
+1:-:w:trw:
+1:-:y:trwy:
+1:-:f:trwyf:
+1:-:h:trwyfh:
+Player lost and finish the game

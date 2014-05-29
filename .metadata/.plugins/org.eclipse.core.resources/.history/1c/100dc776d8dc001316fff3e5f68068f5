@@ -1,0 +1,8 @@
+import MySQLdb as mdb
+a ="ajsd"
+b="aksjd"
+c=1
+con = mdb.connect('localhost', 'testuser', '1', 'hangman')
+cur = con.cursor()
+with con:
+    cur.execute("insert into game(rightGuess,wrongGuess,result) values ('%s','%s','%s');"%(a,b,c))

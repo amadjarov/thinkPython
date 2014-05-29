@@ -1,0 +1,68 @@
+HANGMANPICS = ['''
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+      |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+  |   |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+ /|   |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ /    |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ / \  |
+      |
+=========''']
+
+class desplayME(object):
+    def __init__(self, HANGMANPICS):
+        self.HANGMANPICS = HANGMANPICS
+    
+    def set_state(self, word,hidden, wrongGuess="" ):
+        self.word = word
+        self.hidden = hidden
+        self.wrongGuess = wrongGuess
+
+    def desplayMan(self,):
+        print self.HANGMANPICS[len(self.wrongGuess)]
+    
+    def desplayHidden(self):
+        print self.hidden       
+        
+
+
