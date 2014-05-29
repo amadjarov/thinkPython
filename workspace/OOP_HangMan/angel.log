@@ -75,3 +75,98 @@ fettuccine:fettucc--e:c:r:fetuc
 fettuccine:fettucci-e:i:r:fetuci
 fettuccine:fettuccine:n:r:fetucin
 Player win and finish the game
+USER:angel start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+brown:b----:b::b
+brown:br---:r::br
+brown:bro--:o::bro
+brown:brow-:w::brow
+brown:brown:n::brown
+Player win and finish the game
+USER:angel start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+USER:angel start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+badger:-a----:a::a
+badger:-ad---:d::ad
+USER:angel start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+USER:angel start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+buoyed:b-----:b::b
+USER:angel start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+jukebox:-------:d:d:
+jukebox:-------:y:dy:
+jukebox:-------:g:dyg:
+jukebox:j------:j:dyg:j
+jukebox:ju-----:u:dyg:ju
+jukebox:ju-----:r:dygr:ju
+jukebox:ju-----:t:dygrt:ju
+jukebox:ju-----:i:dygrti:ju
+Player lost and finish the game
+USER:angel start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+monkey:m-----:m::m
+monkey:mo----:o::mo
+monkey:mon---:n::mon
+monkey:monk--:k::monk
+monkey:monke-:e::monke
+monkey:monkey:y::monkey
+Player win and finish the game
+USER:angel start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+purple:p--p--:p::p
+purple:pu-p--:u::pu
+purple:pu-p--:k:k:pu
+purple:pu-p--:o:ko:pu
+purple:pu-pl-:l:ko:pul
+purple:pu-pl-:t:kot:pul
+purple:pu-ple:e:kot:pule
+purple:pu-ple:b:kotb:pule
+purple:purple:r:kotb:puler
+Player win and finish the game
+USER:angel start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+beaver:b-----:b::b
+beaver:be--e-:e::be
+beaver:bea-e-:a::bea
+beaver:beave-:v::beav
+beaver:beaver:r::beavr
+Player win and finish the game
+USER:angel start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+hawk:-a--:a::a
+hawk:-a--:l:l:a
+hawk:-a--:e:le:a
+hawk:-a--:g:leg:a
+hawk:-a--:r:legr:a
+hawk:-a--:f:legrf:a
+hawk:-a--:y:legrfy:a
+Player lost and finish the game
+USER:angel start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+city:----:a:a:
+city:----:s:as:
+city:----:d:asd:
+city:----:f:asdf:
+city:----:h:asdfh:
+city:---y:y:asdfh:y
+city:--ty:t:asdfh:yt
+city:--ty:e:asdfhe:yt
+Player lost and finish the game
+USER:angel start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+USER:angel start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+nymph:n----:n::n
+nymph:n----:u:u:n
+nymph:ny---:y:u:ny
+nymph:nym--:m:u:nym
+nymph:nymp-:p:u:nymp
+nymph:nymph:h:u:nymph
+Player win and finish the game
+USER:angel start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]
+USER:angel start the game and has 6 wrong turns
+###### [word]:[hidden]:[guess]:[wrong_guess]:[right_guess]

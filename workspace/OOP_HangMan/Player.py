@@ -6,7 +6,7 @@ _ = T.ugettext
 
 class MyError(Exception):
     """Class for exception"""
-
+ 
     def __init__(self, value="Error my friend"):
         self.value = value
     def __str__(self):

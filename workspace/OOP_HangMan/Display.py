@@ -6,7 +6,9 @@ class DisplayME(object):
     """
     Class to desplay the hangman picture and the hidden word
     """
-
+    word = ""
+    hidden = ""
+    wrong_guess = ""
     hangman_pics = ['''
       +---+
       |   |
@@ -35,21 +37,21 @@ class DisplayME(object):
      /|   |
           |
           |
-    =========''', '''
+    =========''', r'''
       +---+
       |   |
       O   |
      /|\  |
           |
           |
-    =========''', '''
+    =========''', r'''
       +---+
       |   |
       O   |
      /|\  |
      /    |
           |
-    =========''', '''
+    =========''', r'''
       +---+
       |   |
       O   |

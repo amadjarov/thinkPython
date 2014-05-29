@@ -2,20 +2,24 @@
 from Player import Player
 from Display import DisplayME
 import logging
+import MySQLdb as mdb
 
 class Game(object):
     """The main class that plays the whole game"""
-
+    guess = ""
     user = Player()
     display = DisplayME()
-
-    def __init__(self, word, wrong_guess="", right_guess="", shots=6,
-                  hidden=""): 
+    con = mdb.connect('localhost', 'testuser', '1', 'hangman');
+    cur = con.cursor()
+    
+    def __init__(self, word, player,wrong_guess="", right_guess="", shots=6,
+                  hidden="",): 
         self.word = word
         self.wrong_guess = wrong_guess
         self.right_guess = right_guess
         self.shots = shots
         self.hidden = hidden
+        self.player= player
         self.allready_guess = self.right_guess + self.wrong_guess
 
     def get_hidden(self):
@@ -69,14 +73,25 @@ class Game(object):
     
             logging.info("%s:%s:%s:%s:%s", self.word, self.hidden, self.guess,
                          self.wrong_guess, self.right_guess)
-
+            with self.con:
+                    self.cur.execute("select player_id from player where player_name = '%s';"%(self.player))
+            idPlayer = self.cur.fetchone()[0]
+                    
             if len(self.wrong_guess) == self.shots:
+                with self.con:
+                    self.cur.execute("insert into game(player_id,currentWord,rightGuess,wrongGuess,result)\
+                     values ('%s','%s','%s','%s','0');"%(idPlayer,self.word,self.right_guess,self.wrong_guess))
                 self.display.display_text("lose")
                 result = 'lost'
 
             if len(self.right_guess) == len(no_repeat_word):
+                with self.con:
+                    self.cur.execute("insert into game(player_id,currentWord,rightGuess,wrongGuess,result)\
+                     values ('%s','%s','%s','%s','1');"%(idPlayer,self.word,self.right_guess,self.wrong_guess))
                 self.display.display_text("win")
                 result = 'win'
             if result is not None:
                 logging.info("Player %s and finish the game", result )
+                
+                
                 exit()
